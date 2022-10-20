@@ -42,14 +42,14 @@ var MopJs = require("@redesblock/mop.js");
 ```js
 import { Mop } from "@redesblock/mop.js"
 
-mop = new Mop("http://localhost:1633")
+mop = new Mop("http://localhost:1683")
 
 // Be aware, this creates on-chain transactions that spend BNB and MOP!
 const batchId = await mop.createVoucherBatch('100', 17)
-const fileHash = await mop.uploadData(batchId, "Mop is awesome!")
+const fileHash = await mop.uploadData(batchId, "Welcome to Mop!")
 const data = await mop.downloadData(fileHash)
 
-console.log(data.text()) // prints 'Mop is awesome!'
+console.log(data.text()) // prints 'Welcome to Mop!'
 ```
 
 ### Setup

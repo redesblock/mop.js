@@ -1,6 +1,6 @@
 {
   "name": "@redesblock/mop.js",
-  "version": "0.9.0",
+  "version": "0.9.2",
   "description": "Javascript client for Mop",
   "keywords": [
     "mop",
@@ -57,6 +57,7 @@
   },
   "dependencies": {
     "@types/readable-stream": "^2.3.13",
+    "get-random-values": "^1.2.2",
     "bufferutil": "^4.0.6",
     "elliptic": "^6.5.4",
     "fetch-blob": "2.1.2",
@@ -68,6 +69,7 @@
     "tar-js": "^0.3.0",
     "utf-8-validate": "^5.0.9",
     "web-streams-polyfill": "^4.0.0-beta.1",
+    "multiformats": "^9.5.4",
     "ws": "^8.7.0"
   },
   "devDependencies": {
