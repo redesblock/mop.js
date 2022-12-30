@@ -3,7 +3,7 @@ var MopJS = require("@redesblock/mop.js");
 const gateway = "http://183.131.181.164:1683/mop/"
 
 async function test() {
-    batchId = "dd812517f2ecfe75d7b08e908a857c8703477949770fbb76f2244d0d90cb4a12" // 85    
+    batchId = "15075cfe5d0b95fc200d6dec9b343ddb831d3f1766ba96e381d4c1a3f81fb13a" // 85    
     
     // UploadOptions
     // pin? 上传的数据是否固定在上传节点上。不适用于以网关模式运行的节点！
